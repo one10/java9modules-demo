@@ -25,19 +25,3 @@ idea {
         vcs = 'Git'
     }
 }
-
-sourceSets {
-    main
-    test
-}
-/*
-subprojects {
-  apply plugin: 'idea'
-
-  idea {
-    module {
-      testSourceDirs += file('test-mains')
-    }
-  }
-}
- */
