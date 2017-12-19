@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+idea {
+    module {
+        name = 'org.one10.examples.one'
+    }
+}
+
+sourceSets {
+    main { java {} }
+    test { java {} }
+}
