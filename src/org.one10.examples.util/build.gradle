@@ -1,0 +1,4 @@
+sourceSets {
+    main { java {} }
+    test { java {} }
+}
