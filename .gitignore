@@ -1,11 +1,29 @@
-# intellij stuff
-.idea
-*.iml
-*.iws
-*.ipr
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
 
-# gradle
-.gradle
-gradle/wrapper/gradle-wrapper.jar
-gradlew
-gradlew.bat
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+## File-based project format:
+*.iws
+
+# "You may consider not to share .iml files for the Gradle based projects, since these files will be generated on import"
+# https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
+*.iml
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
