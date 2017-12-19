@@ -21,7 +21,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile project(':org.one10.examples.util'),project(':org.one10.examples.one'),project(':org.one10.examples.two')
+    compile project(':org.one10.examples.util'), project(':org.one10.examples.one'), project(':org.one10.examples.two')
 }
 
 idea {
@@ -32,6 +32,7 @@ idea {
     }
     module {
         scopes.COMPILE.plus += [configurations.compile]
+        scopes.TEST.plus += [configurations.testCompile]
     }
 }
 

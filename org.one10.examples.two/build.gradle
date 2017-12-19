@@ -10,6 +10,7 @@ idea {
     module {
         name = 'org.one10.examples.two'
         scopes.COMPILE.plus += [configurations.compile]
+        scopes.TEST.plus += [configurations.testCompile]
     }
 }
 
