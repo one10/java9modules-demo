@@ -22,8 +22,6 @@
 # "You may consider not to share .iml files for the Gradle based projects, since these files will be generated on import"
 # https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
 *.iml
+*.ipr
 
-## Plugin-specific files:
-
-# IntelliJ
-out/
+.gradle
