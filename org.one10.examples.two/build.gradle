@@ -1,9 +1,15 @@
 apply plugin: 'java'
 apply plugin: 'idea'
 
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile project(':org.one10.examples.util')
+}
+
 idea {
     module {
         name = 'org.one10.examples.two'
+        scopes.COMPILE.plus += [configurations.compile]
     }
 }
 
