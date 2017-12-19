@@ -28,6 +28,10 @@ idea {
         vcs = 'Git'
     }
     module {
+        name = 'org.one10.examples.mainapp'
+        contentRoot = file('.')
+    }
+    module {
         name = 'org.one10.examples.util'
         contentRoot = file('src/org.one10.examples.util')
     }
