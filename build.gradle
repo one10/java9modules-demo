@@ -21,6 +21,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile project(':org.one10.examples.util')
 }
 
 idea {
@@ -28,6 +29,9 @@ idea {
         jdkName = '9.0'
         languageLevel = 1.9
         vcs = 'Git'
+    }
+    module {
+        scopes.COMPILE.plus += [configurations.compile]
     }
 }
 
