@@ -4,6 +4,8 @@ A simple boilerplate project that combines Java 9 modules, gradle, IntelliJ sett
 # How to run
 * Install JDK 9 and gradle
 * Clone this project, run ```gradle idea```, open project in IntelliJ
+    * Note: "calling gradle idea and using IDEA's importer are mutually exclusive" - if you run ```gradle idea```, then don't use IntelliJ gradle importer
+        * https://github.com/gradle/gradle/issues/2813
 * Take a look at the file structure: ```tree .```
 
 # Notes
@@ -24,15 +26,3 @@ A simple boilerplate project that combines Java 9 modules, gradle, IntelliJ sett
 alias j9="export JAVA_HOME=`/usr/libexec/java_home -v 9`; java -version"
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
 ```
-
-* To apply the same structure to other projects:
-```
-mkdir -p src/org.one10.examples.mainapp/main/java/org/one10/examples/mainapp/
-touch src/org.one10.examples.mainapp/main/java/org/one10/examples/mainapp/Main.java
-
-mkdir -p src/org.one10.examples.mainapp/test/java/org/one10/examples/mainapp/
-touch src/org.one10.examples.mainapp/test/java/org/one10/examples/mainapp/MainTest.java
-
-touch src/org.one10.examples.mainapp/module-info.java
-```
-... etc

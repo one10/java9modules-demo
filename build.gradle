@@ -20,7 +20,7 @@ dependencies {
 
 idea {
     project {
-        jdkName = '1.9'
+        jdkName = '9.0'
         languageLevel = 1.9
         vcs = 'Git'
     }
