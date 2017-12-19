@@ -7,6 +7,8 @@ A simple boilerplate project that combines Java 9 modules, gradle, IntelliJ sett
     * Note: "calling gradle idea and using IDEA's importer are mutually exclusive" - if you run ```gradle idea```, then don't use IntelliJ gradle importer
         * https://github.com/gradle/gradle/issues/2813
 * Take a look at the file structure: ```tree .```
+* ```gradle clean build run```
+* ```gradle clean build test```
 
 # Notes
 * > To use Java 9 modularity, each Java 9 module needs to correspond to an IntelliJ IDEA module.
