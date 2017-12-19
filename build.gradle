@@ -27,6 +27,10 @@ idea {
         languageLevel = 1.9
         vcs = 'Git'
     }
+    module {
+        name = 'org.one10.examples.util'
+        contentRoot = file('src/org.one10.examples.util')
+    }
 }
 
 sourceSets {
