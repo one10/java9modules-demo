@@ -4,10 +4,11 @@ apply plugin: 'idea'
 idea {
     module {
         name = 'org.one10.examples.util'
+        sourceDirs += file('main/java')
     }
 }
 
-sourceSets {
-    main { java {} }
-    test { java {} }
-}
+//sourceSets {
+//    main { java {} }
+//    test { java {} }
+//}

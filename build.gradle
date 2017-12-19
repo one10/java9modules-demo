@@ -5,6 +5,8 @@ apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'application'
 
+allprojects { apply plugin: "idea" }
+
 mainClassName = 'org.one10.examples.mainapp.Main'
 
 sourceCompatibility = 1.9
@@ -26,14 +28,6 @@ idea {
         jdkName = '9.0'
         languageLevel = 1.9
         vcs = 'Git'
-    }
-    module {
-        name = 'org.one10.examples.mainapp'
-        contentRoot = file('.')
-    }
-    module {
-        name = 'org.one10.examples.util'
-        contentRoot = file('src/org.one10.examples.util')
     }
 }
 
