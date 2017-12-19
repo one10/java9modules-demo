@@ -21,7 +21,19 @@ dependencies {
 idea {
     project {
         jdkName = '1.9'
-        languageLevel = '1.9'
+        languageLevel = 1.9
         vcs = 'Git'
+    }
+    module {
+        sourceDirs += file('src')
+    }
+}
+
+sourceSets {
+    main {
+        java {}
+    }
+    test {
+        java {}
     }
 }
