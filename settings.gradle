@@ -1,10 +1,10 @@
 rootProject.name = 'java9modules-demo'
 
 include 'org.one10.examples.one'
-project(':org.one10.examples.one').projectDir = file('src/org.one10.examples.one')
+project(':org.one10.examples.one').projectDir = file('org.one10.examples.one')
 
 include 'org.one10.examples.two'
-project(':org.one10.examples.two').projectDir = file('src/org.one10.examples.two')
+project(':org.one10.examples.two').projectDir = file('org.one10.examples.two')
 
 include 'org.one10.examples.util'
-project(':org.one10.examples.util').projectDir = file('src/org.one10.examples.util')
+project(':org.one10.examples.util').projectDir = file('org.one10.examples.util')
