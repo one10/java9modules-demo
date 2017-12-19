@@ -1,3 +1,11 @@
+# intellij stuff
 .idea
 *.iml
 *.iws
+*.ipr
+
+# gradle
+.gradle
+gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
